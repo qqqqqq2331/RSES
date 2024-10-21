@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로젠버그 자아존중감 척도 (RSES)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>로젠버그 자아존중감 척도 (RSES)</h2>
+
+<form id="rses-form">
+    <div class="question">
+        <p>1. 나는 다른 사람들만큼 가치가 있다고 생각한다.</p>
+        <label><input type="radio" name="q1" value="3"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q1" value="2"> 동의</label><br>
+        <label><input type="radio" name="q1" value="1"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q1" value="0"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>2. 나는 내 능력에 대해 긍정적인 태도를 가지고 있다.</p>
+        <label><input type="radio" name="q2" value="3"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q2" value="2"> 동의</label><br>
+        <label><input type="radio" name="q2" value="1"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q2" value="0"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>3. 나는 나에게는 자랑스러운 점이 없다고 느낀다.</p>
+        <label><input type="radio" name="q3" value="0"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q3" value="1"> 동의</label><br>
+        <label><input type="radio" name="q3" value="2"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q3" value="3"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>4. 나는 대체로 만족스러운 삶을 살고 있다고 느낀다.</p>
+        <label><input type="radio" name="q4" value="3"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q4" value="2"> 동의</label><br>
+        <label><input type="radio" name="q4" value="1"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q4" value="0"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>5. 때때로 나는 나 자신을 정말 쓸모없다고 생각한다.</p>
+        <label><input type="radio" name="q5" value="0"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q5" value="1"> 동의</label><br>
+        <label><input type="radio" name="q5" value="2"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q5" value="3"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>6. 나는 내 자신을 존중한다.</p>
+        <label><input type="radio" name="q6" value="3"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q6" value="2"> 동의</label><br>
+        <label><input type="radio" name="q6" value="1"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q6" value="0"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>7. 나는 나에게 부족한 점이 많다고 느낀다.</p>
+        <label><input type="radio" name="q7" value="0"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q7" value="1"> 동의</label><br>
+        <label><input type="radio" name="q7" value="2"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q7" value="3"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>8. 나는 나 자신에 대해 긍정적인 태도를 가지고 있다.</p>
+        <label><input type="radio" name="q8" value="3"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q8" value="2"> 동의</label><br>
+        <label><input type="radio" name="q8" value="1"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q8" value="0"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>9. 나는 다른 사람들 앞에서 자주 자신감을 잃는다.</p>
+        <label><input type="radio" name="q9" value="0"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q9" value="1"> 동의</label><br>
+        <label><input type="radio" name="q9" value="2"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q9" value="3"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <div class="question">
+        <p>10. 나는 내가 쓸모없는 사람이라고 생각한다.</p>
+        <label><input type="radio" name="q10" value="0"> 전적으로 동의</label><br>
+        <label><input type="radio" name="q10" value="1"> 동의</label><br>
+        <label><input type="radio" name="q10" value="2"> 동의하지 않음</label><br>
+        <label><input type="radio" name="q10" value="3"> 전적으로 동의하지 않음</label>
+    </div>
+
+    <button type="button" onclick="calculateRSES()">결과 확인</button>
+</form>
+
+<div class="result" id="result"></div>
+
+<script>
+    function calculateRSES() {
+        var form = document.forms["rses-form"];
+        var total = 0;
+
+        for (var i = 1; i <= 10; i++) {
+            var q = form["q" + i];
+            for (var j = 0; j < q.length; j++) {
+                if (q[j].checked) {
+                    total += parseInt(q[j].value);
+                }
+            }
+        }
+
+        var resultText = "총점: " + total + "점. ";
+        
+        if (total >= 25) {
+            resultText += "자존감이 매우 높습니다.";
+        } else if (total >= 15) {
+            resultText += "평균적인 자존감 수준입니다.";
+        } else {
+            resultText += "자존감이 낮습니다.";
+        }
+
+        document.getElementById("result").innerHTML = resultText;
+    }
+</script>
+
+</body>
+</html>
